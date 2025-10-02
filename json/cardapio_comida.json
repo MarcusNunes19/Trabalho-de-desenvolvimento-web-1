@@ -1,0 +1,116 @@
+{
+  "categorias": [
+    {
+      "nome": "Nossas Entradas",
+      "observacao": "Necessário pedir prato principal",
+      "itens": [
+        {
+          "nome": "Bolinho de bacalhau",
+          "descricao": "Deliciosos bolinhos de bacalhau",
+          "ingredientes": "Bacalhau dessalgado e desfiado, batata cozida e amassada, ovos, cebola, salsinha, alho, sal, pimenta-do-reino, azeite de oliva.",
+          "preco": "Por conta da casa",
+          "imagem": "imagens/Bolinho-de-Bacalhau.png"
+        },
+        {
+          "nome": "Pasteiszinhos",
+          "descricao": "Pasteizinhos de 3 sabores",
+          "ingredientes": "Pastelinhos de formiga, alfafa e presunto",
+          "preco": "Por conta da casa",
+          "imagem": "imagens/pasteizinhos.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Nossos Pratos Principais",
+      "itens": [
+        {
+          "nome": "Cheese Burguer",
+          "descricao": "Hambúrguer com queijo cheerdar carne bovina",
+          "ingredientes": "Pão, carne bovina 150g, queijo cheerdar , maionese",
+          "preco": "R$ 15,00",
+          "imagem": "imagens/cheeseburguer.jpg"
+        },
+        {
+          "nome": "X-Picanha",
+          "descricao": "Hambúrguer com queijo,presunto, picanha, ovo, salsicha",
+          "ingredientes": "Pão francês, presunto 30g, queijo 30g, 2 ovos e 4 salsichas",
+          "preco": "R$ 25,60",
+          "imagem": "imagens/ef2fb013-0982-4fcf-93de-ec8f6f7826ad.png"
+        },
+        {
+          "nome": "Coxinhas de frango",
+          "descricao": "Coxinhas de frango assadas com nossos temperos",
+          "ingredientes": "Coxinhas de Frango, barbecue e nosso molho secreto",
+          "preco": "R$ 19,90",
+          "imagem": "imagens/coxas_frango.jpg"
+        },
+        {
+          "nome": "Bata frita com peixe frito",
+          "descricao": "Pedaços de peixe frito com bata frita",
+          "ingredientes": "Peixe frito, batata frita e tiras de limão",
+          "preco": "R$ 19,90",
+          "imagem": "imagens/fish_and_chips.png"
+        }
+      ]
+    },
+    {
+      "nome": "Bebidas",
+      "itens": [
+        {
+          "nome": "Cerveja Budweiser",
+          "descricao": "Cerveja Budweiser quente ou gelada",
+          "ingredientes": "água, malte, arroz e lúpulo",
+          "preco": "R$ 5,90",
+          "imagem": "imagens/budweiser.png"
+        },
+        {
+          "nome": "Refrigerante Lata",
+          "descricao": "Refrigerante em lata",
+          "ingredientes": "Água gaseificada, açúcar, essências",
+          "preco": "R$ 5,00",
+          "imagem": "imagens/refriegerante_lata.jpg"
+        },
+        {
+          "nome": "Refrigerante garrafa",
+          "descricao": "Refrigerante em garrafa de 2 litros",
+          "ingredientes": "Água gaseificada, açúcar, essências",
+          "preco": "R$ 10,00",
+          "imagem": "imagens/refrigerante_garrafa.png"
+        },
+        {
+          "nome": "Suco de taperebá",
+          "descricao": "Suco natural de taperebá",
+          "ingredientes": "taperebá fresco colhido na hora, água, açucar",
+          "preco": "R$ 6,00",
+          "imagem": "imagens/suco_taperebá.jpg"
+        },
+        {
+          "nome": "Suco de tamarindo",
+          "descricao": "Suco natural de tamarindo",
+          "ingredientes": "tamarindo fresco colhido na hora, água, açucar",
+          "preco": "R$ 8,00",
+          "imagem": "imagens/suco_tamarindo.png"
+        }
+      ]
+    },
+    {
+      "nome": "Sobremesas",
+      "itens": [
+        {
+          "nome": "Brownie com sorvete",
+          "descricao": "Brownie com sorvete no topo",
+          "ingredientes": "Brownie de chocolate com sorvete de baunilha",
+          "preco": "R$ 7,00",
+          "imagem": "imagens/brownie_sorvete.jpg"
+        },
+        {
+          "nome": "Torta alemã",
+          "descricao": "Bola de sorvete de creme com calda opcional",
+          "ingredientes": "Manteiga sem sal, açúcar, creme de leite sem soro, essência de baunilha, biscoito maisena, leite, chocolate meio amargo, chocolate branco.",
+          "preco": "R$ 12,00",
+          "imagem": "imagens/torta_alemã.jpg"
+        }
+      ]
+    }
+  ]
+}

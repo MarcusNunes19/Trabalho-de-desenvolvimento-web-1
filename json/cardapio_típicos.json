@@ -1,0 +1,102 @@
+{
+  "categorias": [
+    {
+      "nome": "Bebidas",
+      "itens": [
+        {
+          "nome": "Guaraná da Amazônia",
+          "descricao": "Refrigerante típico do norte, sabor único e refrescante",
+          "ingredientes": "Extrato de guaraná, açúcar, água gaseificada",
+          "preco": "R$ 7,90",
+          "imagem": "imagens/guaraná_amazonia.jpg"
+        },
+        {
+          "nome": "Tereré",
+          "descricao": "Chimarrão gelado, tradição paranaense para refrescar",
+          "ingredientes": "Erva-mate, água gelada",
+          "preco": "R$ 9,90",
+          "imagem": "imagens/terere.jpg"
+        },
+        {
+          "nome": "Suco de Açaí",
+          "descricao": "Açaí batido geladinho, puro ou com guaraná",
+          "ingredientes": "Polpa de açaí, guaraná (opcional), gelo",
+          "preco": "R$ 14,90",
+          "imagem": "imagens/suco_acai.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Comidas do Paraná",
+      "itens": [
+        {
+          "nome": "Barreado",
+          "descricao": "Prato típico do litoral paranaense, carne cozida por horas",
+          "ingredientes": "Carne bovina, toucinho, temperos, farinha de mandioca",
+          "preco": "R$ 32,90",
+          "imagem": "imagens/barreado.png"
+        },
+        {
+          "nome": "Pierogi",
+          "descricao": "Massa recheada típica da culinária polonesa, muito comum no Paraná",
+          "ingredientes": "Massa de farinha, batata, queijo, cebola",
+          "preco": "R$ 18,90",
+          "imagem": "imagens/pioregi.png"
+        },
+        {
+          "nome": "Carne de Onça",
+          "descricao": "Prato típico de Curitiba, carne crua temperada",
+          "ingredientes": "Carne bovina crua, cebola, alho, azeite, pimenta",
+          "preco": "R$ 22,90",
+          "imagem": "imagens/carne_onca.png"
+        }
+      ]
+    },
+    {
+      "nome": "Comidas do Pará",
+      "itens": [
+        {
+          "nome": "Pato no Tucupi",
+          "descricao": "Prato mais famoso da culinária paraense, pato cozido no tucupi",
+          "ingredientes": "Pato, tucupi, jambu, alho, cheiro-verde",
+          "preco": "R$ 45,90",
+          "imagem": "imagens/tucupi_pato.png"
+        },
+        {
+          "nome": "Maniçoba",
+          "descricao": "Prato típico paraense, considerada a feijoada da região norte",
+          "ingredientes": "Folhas de maniço, carnes variadas, toucinho",
+          "preco": "R$ 38,90",
+          "imagem": "imagens/manicoba.png"
+        },
+        {
+          "nome": "Tacacá",
+          "descricao": "Caldo quente típico do Pará, servido na cuia",
+          "ingredientes": "Tucupi, goma de tapioca, jambu, camarão seco",
+          "preco": "R$ 16,90",
+          "imagem": "imagens/tacaca.png"
+        }
+      ]
+    },
+    {
+      "nome": "Sobremesas",
+      "itens": [
+        {
+          "nome": "Tapioca com Cupuaçu",
+          "descricao": "Sobremesa típica do Pará, recheada com creme de cupuaçu",
+          "ingredientes": "Goma de tapioca, creme de cupuaçu, coco",
+          "preco": "R$ 11,90",
+          "imagem": "imagens/sonhotapioca.png"
+        },
+        {
+          "nome": "Tigela de Açaí",
+          "descricao": "Açaí na tigela com acompanhamentos à sua escolha",
+          "ingredientes": "Polpa de açaí, granola, banana, mel",
+          "preco": "R$ 18,90",
+          "imagem": "imagens/açaí_tradicional.png"
+        }
+      ]
+    }
+  ]
+}
+

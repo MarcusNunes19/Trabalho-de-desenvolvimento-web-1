@@ -1,0 +1,45 @@
+{
+  "categorias": [
+    {
+      "nome": "Jogos Disponíveis",
+      "jogos": [
+        {
+          "nome": "War",
+          "tipo": "Estratégia/Conquista",
+          "jogadores": "2-6",
+          "tempo": "120+ min",
+          "descricao": "Clássico jogo de estratégia e conquista de territórios",
+          "detalhes": "Um jogo de tabuleiro onde o objetivo é conquistar territórios e cumprir objetivos secretos para vencer.",
+          "imagem": "imagens/war.png"
+        },
+        {
+          "nome": "Ticket to Ride",
+          "tipo": "Estratégia/Construção",
+          "jogadores": "2-5",
+          "tempo": "30-60 min",
+          "descricao": "Construa rotas ferroviárias pelos Estados Unidos",
+          "detalhes": "Os jogadores coletam cartas de trens para construir rotas que conectam cidades. Vence quem cumprir mais bilhetes de destino e somar mais pontos.",
+          "imagem": "imagens/ticket_ride.png"
+        },
+        {
+          "nome": "Xadrez",
+          "tipo": "Estratégia Abstrata",
+          "jogadores": "2",
+          "tempo": "30-60 min",
+          "descricao": "O clássico jogo de estratégia que desafia a mente",
+          "detalhes": "Jogo milenar de pura estratégia, onde cada peça tem movimentos únicos. O objetivo é dar xeque-mate no rei adversário.",
+          "imagem": "imagens/xadrez.png"
+        },
+        {
+          "nome": "Combate",
+          "tipo": "Estratégia Militar",
+          "jogadores": "2",
+          "tempo": "30-60 min",
+          "descricao": "Jogo de estratégia com peças militares escondidas",
+          "detalhes": "Os jogadores movimentam suas tropas e tentam capturar a bandeira do oponente, usando peças ocultas para enganar o adversário.",
+          "imagem": "imagens/combate.png"
+        }
+      ]
+    }
+  ]
+}
