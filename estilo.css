@@ -1,0 +1,44 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #111216; /* Cor de fundo da barra */
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo à esquerda, menu à direita */
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: #FFD83B;
+    margin-right: 24rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Espaçamento entre os itens */
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Efeito ao passar o mouse */
+.nav-menu li a:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Escurece suavemente */
+}
