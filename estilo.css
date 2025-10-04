@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #111216; /* Cor de fundo da barra */
+    color: #fff;
+    border: 1px ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo à esquerda, menu à direita */
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: #FFD83B;
+    margin-right: 24rem;
+}
+
+.nav-menu {
+    list-style: none;
+    gap: 1.5rem; /* Espaçamento entre os itens */
+    
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    /* border: 1px solid; */
+    border-radius: 1px; /* Cantos arredondados */
+
+    float: left;
+}
+
+/* Efeito ao passar o mouse */
+.nav-menu li a:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Escurece suavemente */
+}
+
+
+
+
+
+.footer {
+    background-color: #111216;   /* fundo escuro */
+    color: #fff;              /* texto branco */
+    padding: 2rem 1rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* quebra em telas menores */
+    gap: 2rem;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-column h3 {
+    margin-bottom: 1rem;
+    color: #FFD83B; /* amarelo neon do logo */
+}
+
+.footer-column p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column; /* organiza em coluna */
+    align-items: center;    /* centraliza o conteúdo horizontalmente */
+    gap: 2rem;
+}
+
+/* primeira coluna ocupa toda a largura */
+.footer-content .footer-column:first-child {
+    width: 100%;
+    text-align: center;
+}
+
+/* container para as duas colunas de baixo */
+.footer-bottom {
+    display: flex;
+    justify-content: center; /* centraliza no meio */
+    gap: 4rem;               /* espaço entre as duas colunas */
+    flex-wrap: wrap;         /* quebra em telas menores */
+}
+
+.footer-bottom .footer-column {
+    min-width: 220px;
+    text-align: center; /* deixa conteúdo centralizado */
+}
