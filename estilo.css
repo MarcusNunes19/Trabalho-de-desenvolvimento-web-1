@@ -1,3 +1,4 @@
+/* ------------------------- header ------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@
 
 header {
     background-color: #1C1E22;
-    /* Cor de fundo da barra */
     color: #fff;
     border: 1px;
 }
@@ -49,7 +49,6 @@ header {
 }
 
 /* ---------------------------- index ---------------------------- */
-/* ===== SOBRE ===== */
 
 .about {
     padding: 4rem 1rem;
@@ -71,7 +70,6 @@ header {
     gap: 3rem;
 }
 
-/* Estrutura de cada bloco de texto e imagem */
 .about-text {
     display: flex;
     flex-direction: column;
@@ -84,7 +82,6 @@ header {
     color: #333;
 }
 
-/* Imagens */
 .about-images {
     display: flex;
     flex-direction: column;
@@ -98,21 +95,15 @@ header {
     box-shadow: 0 0 10px rgba(255, 216, 59, 0.2);
 }
 
-/* ===== TEXTOS E IMAGENS ===== */
-
-/* Primeiro paragrafo com imagem a esquerda */
 .about-content>.about-text p:nth-child(1) {
     display: flex;
     flex-direction: row-reverse;
 }
 
-/* Segundo paragrafo com imagem a direita */
 .about-content>.about-text p:nth-child(2) {
     display: flex;
     flex-direction: row;
 }
-
-/* ===== SEÇÃO HIGHLIGHTS ===== */
 
 .highlights {
     background-color: #111216;
@@ -236,14 +227,12 @@ header {
     padding-bottom: 10px;
 }
 
-/* ====== grid jogo ====== */
 .jogos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
 }
 
-/* ====== card jogo ====== */
 .jogo-item {
     background-color: #1c1e22;
     border-radius: 10px;
@@ -257,7 +246,6 @@ header {
     background-color: #24262b;
 }
 
-/* Imagem do jogo */
 .jogo-image img {
     width: 100%;
     height: 180px;
@@ -265,7 +253,6 @@ header {
     border-bottom: 2px solid #333;
 }
 
-/* Conteúdo fixo */
 .jogo-content {
     padding: 1rem;
 }
@@ -285,7 +272,6 @@ header {
     color: #ddd;
 }
 
-/* ====== parte expansível no hover ====== */
 .jogo-descricao,
 .jogo-detalhes {
     max-height: 0;
@@ -294,7 +280,6 @@ header {
     transition: all 0.4s ease;
 }
 
-/* quando passar o mouse no card, expande */
 .jogo-item:hover .jogo-descricao,
 .jogo-item:hover .jogo-detalhes {
     font-style: italic;
@@ -397,7 +382,6 @@ header {
     border: 2px solid #FFD700;
 }
 
-/* Texto */
 .cardapio-opcoes-description {
     font-size: 0.95rem;
     color: #ddd;
@@ -419,6 +403,7 @@ header {
 
 
 
+/* ------------------------- footer ------------------------- */
 
 
 .footer {
@@ -457,9 +442,7 @@ header {
 .footer-content {
     display: flex;
     flex-direction: column;
-    /* organiza em coluna */
     align-items: center;
-    /* centraliza o conteudo horizontalmente */
     gap: 2rem;
 }
 
@@ -480,5 +463,4 @@ header {
 .footer-bottom .footer-column {
     min-width: 220px;
     text-align: center;
-    /* deixa conteudo centralizado */
 }
